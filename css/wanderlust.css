@@ -1,0 +1,33 @@
+.body-background-colour {
+  background-color: #ece4d4;
+}
+
+.banner-font {
+  font-size: 1.2em;
+  line-height: 9px;
+  font-family: "Georgia", serif;
+  color: #f6f6f6;
+}
+
+.responsive-banner-font {
+  font-size: 5vw;
+  line-height: 9px;
+  font-family: "Georgia", serif;
+  color: #f6f6f6;
+}
+.header-background-image {
+  background-image: url("Assets/Images/wanderlust-header-no-text.png");
+  background-color: #ece4d4;
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-background-image {
+  background-image: url("Assets/Images/logo-1.png");
+  background-color: #ece4d4;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
