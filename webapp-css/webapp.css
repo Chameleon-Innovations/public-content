@@ -1,0 +1,31 @@
+@font-face {
+  font-family: TTNorms;
+  src: url(https://github.com/Chameleon-Innovations/public-content/raw/main/webapp-css/TT-Norms-Fonts/TTNorms-Medium.otf);
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: TTNorms;
+  src: url(https://github.com/Chameleon-Innovations/public-content/raw/main/webapp-css/TT-Norms-Fonts/TTNorms-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: TTNorms;
+  src: url(https://github.com/Chameleon-Innovations/public-content/raw/main/webapp-css/TT-Norms-Fonts/TTNorms-Regular.otf);
+}
+
+.header-font {
+  font-family: "TTNorms";
+  color: #0a1c3b;
+  font-weight: bold;
+  font-variant-ligatures: none;
+  letter-spacing: 0.5em;
+}
+
+.overlay-font {
+  font-family: "TTNorms", Helvetica, sans-serif;
+  color: #ffffff;
+  font-weight: medium;
+  font-variant-ligatures: none;
+}
