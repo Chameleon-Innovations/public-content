@@ -1,28 +1,30 @@
 @font-face {
   font-family: TTNorms;
-  src: url(https://github.com/Chameleon-Innovations/public-content/raw/main/webapp-css/TT-Norms-Fonts/TTNorms-Medium.otf);
+  src: url(https://raw.githack.com/Chameleon-Innovations/public-content/main/webapp-css/TTNorms/TTNorms-Medium.woff?raw=true);
   font-weight: medium;
 }
 
 @font-face {
   font-family: TTNorms;
-  src: url(https://github.com/Chameleon-Innovations/public-content/raw/main/webapp-css/TT-Norms-Fonts/TTNorms-Bold.otf);
+  src: url(https://raw.githack.com/Chameleon-Innovations/public-content/main/webapp-css/TTNorms/TTNorms-Bold.woff?raw=true);
   font-weight: bold;
 }
 
 @font-face {
   font-family: TTNorms;
-  src: url(https://github.com/Chameleon-Innovations/public-content/raw/main/webapp-css/TT-Norms-Fonts/TTNorms-Regular.otf);
+  src: url(https://raw.githack.com/Chameleon-Innovations/public-content/main/webapp-css/TTNorms/TTNorms-Regular.woff?raw=true);
 }
 
+/* This font is for use in the white header */
 .header-font {
-  font-family: "TTNorms";
+  font-family: "TTNorms", Helvetica, sans-serif;
   color: #0a1c3b;
   font-weight: bold;
   font-variant-ligatures: none;
   letter-spacing: 0.5em;
 }
 
+/* This font is for use overlaying the camera/AR */
 .overlay-font {
   font-family: "TTNorms", Helvetica, sans-serif;
   color: #ffffff;
